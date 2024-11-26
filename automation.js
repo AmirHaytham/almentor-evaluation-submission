@@ -127,41 +127,8 @@ async function extractEmailsToExcel(text) {
 // const text = `your text containing emails here`;
 // const emails = extractEmails(text);
 
-const text = `
-
-477412681@alex2.moe.edu.eg
-Completed
-11/17/2024
-11/23/2024
-L1G7ALX05416
-ادم
-عبد العزيز احمد عبد العزيز
-adameltarawy7@gmail.com
-Completed
-11/17/2024
-11/23/2024
-L1G7ALX05694
-كيرلس
-ميلاد واصف حكيم واصف
-sallygaber359@gmail.com
-Completed
-11/17/2024
-11/23/2024
-L1G7AST17658
-جنى
-مصطفى محمد كمال الدين حمدان
-janamikawy@gmail.com
-Completed
-11/17/2024
-11/23/2024
-`;
+const text = ` ADD UR STUDENT EMAILS HERE `;
 await extractEmailsToExcel(text);
-
-// Array of different compliments
-const compliments = [
-"",
-""
-];
 
 async function wait(page, ms) {
     await page.evaluate(ms => new Promise(resolve => setTimeout(resolve, ms)), ms);
