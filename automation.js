@@ -3,7 +3,6 @@ import fs from 'fs';
 import ExcelJS from 'exceljs';
 import readline from 'readline';
 
-// Add this new function at the top of the file
 function extractEmails(text) {
     try {
         // Regular expression to match email addresses
