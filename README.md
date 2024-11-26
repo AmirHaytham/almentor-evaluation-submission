@@ -102,7 +102,7 @@ node automation.js
 | Column | Description | Values |
 |--------|-------------|---------|
 | Student Email | Email address | Text |
-| Teacher Code | Teacher identifier | AH-5352 |
+| Teacher Code | Teacher identifier | ENTER YOUR ID |
 | Interaction | Lecture interaction | 0-5 |
 | Commitment | Session commitment | 0-5 |
 | Behavior | Student behavior | Dropdown |
