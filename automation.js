@@ -60,7 +60,7 @@ async function extractEmailsToExcel(text) {
 
             worksheet.addRow({
                 email: email,
-                teacherCode: 'AH-5352',
+                teacherCode: 'ENTER YOUR ID',
                 interaction: '',
                 commitment: '',
                 behavior: '',
@@ -124,10 +124,7 @@ async function extractEmailsToExcel(text) {
 
 // Example usage:
 
-// const text = `your text containing emails here`;
-// const emails = extractEmails(text);
-
-const text = ` ADD UR STUDENT EMAILS HERE `;
+const text = ` ADD UR STUDENTS EMAILS HERE `;
 await extractEmailsToExcel(text);
 
 async function wait(page, ms) {
